@@ -5,7 +5,7 @@ use strict;
 use DynaLoader;
 use PerlIO::encoding;
 our @ISA = qw(DynaLoader);
-our $VERSION = '0.03';
+our $VERSION = '0.04';
 
 bootstrap PerlIO::locale;
 
