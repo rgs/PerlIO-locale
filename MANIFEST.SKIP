@@ -1,0 +1,7 @@
+\B\.svn\b
+^MANIFEST\.bak
+^Makefile$
+^blib/
+^MakeMaker-\d
+^pm_to_blib$
+~$
