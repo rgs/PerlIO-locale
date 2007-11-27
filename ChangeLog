@@ -1,36 +1,9 @@
-----------------------------------------------------------------------
-r29:  rafael | 2005-10-05 11:49:20 +0200
-Changed paths:
-  D  /CPAN/PerlIO-Locale
-  A  /CPAN/PerlIO-locale (from /CPAN/PerlIO-Locale:28)
+Rafael Garcia-Suarez (7):
+      Import PerlIO::locale 0.03 from CPAN
+      Update MANIFEST.SKIP (from bleadperl)
+      Update email address and copyright year
+      Add two new test files, that rely on the presence of the en_US.UTF-8 locale
+      Remove TODO note, now that new tests have been added
+      Bump version to 0.04
+      Regenerate META.yml file
 
-Well, this directory was misnamed.
-----------------------------------------------------------------------
-r44:  rafael | 2005-10-12 14:45:11 +0200
-Changed paths:
-  M  /CPAN/PerlIO-locale/Makefile.PL
-  M  /CPAN/PerlIO-locale/locale.pm
-
-Fix e-mail address; add licence
-----------------------------------------------------------------------
-r48:  rafael | 2005-11-08 10:55:35 +0100
-Changed paths:
-  M  /CPAN/PerlIO-locale/MANIFEST
-  A  /CPAN/PerlIO-locale/t/pod-coverage.t (from /CPAN/Test-LongString/t/pod-coverage.t:10)
-  A  /CPAN/PerlIO-locale/t/pod.t (from /CPAN/Test-LongString/t/pod.t:10)
-
-Add POD tests
-----------------------------------------------------------------------
-r49:  rafael | 2005-11-08 11:04:12 +0100
-Changed paths:
-  M  /CPAN/PerlIO-locale/locale.xs
-
-Add portability comment
-----------------------------------------------------------------------
-r50:  rafael | 2005-11-08 11:04:47 +0100
-Changed paths:
-  M  /CPAN/PerlIO-locale/README
-  M  /CPAN/PerlIO-locale/locale.pm
-
-Update copyright and version number
-----------------------------------------------------------------------
