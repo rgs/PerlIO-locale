@@ -34,7 +34,7 @@ to the locale currently in effect, if perl can guess it.
 
 =head1 AUTHOR
 
-Copyright (c) 2004, 2005 Rafael Garcia-Suarez <rgarciasuarez@mandriva.com>.
+Copyright (c) 2004, 2005, 2007 Rafael Garcia-Suarez <rgarciasuarez@gmail.com>.
 This program is free software; you may redistribute it and/or modify it
 under the same terms as Perl itself.
 

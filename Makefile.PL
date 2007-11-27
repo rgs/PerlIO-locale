@@ -32,7 +32,7 @@ $encoding_so =~ s,/PerlIO/,/auto/PerlIO/,;
 print "Found encoding.so at $encoding_so\n";
 
 WriteMakefile(
-    AUTHOR => 'Rafael Garcia-Suarez <rgarciasuarez@mandriva.com>',
+    AUTHOR => 'Rafael Garcia-Suarez <rgarciasuarez@gmail.com>',
     OBJECT => "$encoding_so locale.o",
     NAME => 'PerlIO::locale',
     PREREQ_PM => { 'PerlIO::encoding' => 0 },
