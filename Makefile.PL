@@ -37,4 +37,5 @@ WriteMakefile(
     NAME => 'PerlIO::locale',
     PREREQ_PM => { 'PerlIO::encoding' => 0 },
     VERSION_FROM => 'locale.pm',
+    LICENSE => 'perl',
 );
