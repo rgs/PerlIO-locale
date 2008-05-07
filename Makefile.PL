@@ -33,7 +33,7 @@ print "Found encoding.so at $encoding_so\n";
 
 WriteMakefile(
     AUTHOR => 'Rafael Garcia-Suarez <rgarciasuarez@gmail.com>',
-    OBJECT => "$encoding_so locale.o",
+    MYEXTLIB => $encoding_so,
     NAME => 'PerlIO::locale',
     PREREQ_PM => { 'PerlIO::encoding' => 0 },
     VERSION_FROM => 'locale.pm',
