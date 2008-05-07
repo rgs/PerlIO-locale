@@ -1,4 +1,4 @@
-PerlIO::locale v0.04
+PerlIO::locale v0.05
 ====================
 
 PerlIO layer to use the encoding of the current locale.
@@ -13,4 +13,4 @@ COPYRIGHT AND LICENCE
 This program is free software; you can redistribute it and/or modify it
 under the same terms as Perl itself.
 
-Copyright (c) 2004, 2005, 2007 Rafael Garcia-Suarez
+Copyright (c) 2004, 2005, 2007, 2008 Rafael Garcia-Suarez
