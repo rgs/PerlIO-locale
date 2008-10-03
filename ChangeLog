@@ -1,9 +1,24 @@
+0.04:
 Rafael Garcia-Suarez (7):
-      Import PerlIO::locale 0.03 from CPAN
       Update MANIFEST.SKIP (from bleadperl)
       Update email address and copyright year
       Add two new test files, that rely on the presence of the en_US.UTF-8 locale
       Remove TODO note, now that new tests have been added
       Bump version to 0.04
       Regenerate META.yml file
+      Regenerate ChangeLog with git
+
+0.05:
+Rafael Garcia-Suarez (6):
+      Add license in Makefile.PL
+      Don't try to remove perl's encoding.so when doing realclean
+      Skip tests if en_US.UTF-8 is not found
+      Update copyright and version
+      Clean test file "foo" if the test failed to do so
+      Update metafile
+
+0.06:
+Rafael Garcia-Suarez (2):
+      Fix segfaults occurring with 5.10.
+      Bump version to 0.06 and regenerate META.yml
 
