@@ -13,6 +13,9 @@ typedef struct {
     SV *enc;			/* the encoding object */
     SV *chk;                    /* CHECK in Encode methods */
     int flags;			/* Flags currently just needs lines */
+#if PERL_VERSION > 9
+    int inEncodeCall;		/* trap recursive encode calls */
+#endif
 } PerlIOEncode;
 
 extern IV PerlIOEncode_pushed(pTHX_ PerlIO*, const char*, SV*, PerlIO_funcs*);
