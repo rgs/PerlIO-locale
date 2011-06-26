@@ -22,3 +22,11 @@ Rafael Garcia-Suarez (2):
       Fix segfaults occurring with 5.10.
       Bump version to 0.06 and regenerate META.yml
 
+0.07:
+Leon Timmermans (2):
+      Complete rewrite of locale.xs and related stuff
+      Added win32 support
+
+Rafael Garcia-Suarez (1):
+      Change my email address, and add Leon to AUTHOR section
+

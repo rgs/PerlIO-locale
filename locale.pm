@@ -45,6 +45,10 @@ rewritten by Leon Timmermans <leont@cpan.org>
 This program is free software; you may redistribute it and/or modify it
 under the same terms as Perl itself.
 
+=head1 SOURCE
+
+A git repository for the sources is at L<https://github.com/rgs/PerlIO-locale>.
+
 =head1 SEE ALSO
 
 =over 4
