@@ -37,7 +37,8 @@ to the locale currently in effect, if perl can guess it.
 
 =head1 AUTHOR
 
-Copyright (c) 2004, 2005, 2007, 2008 Rafael Garcia-Suarez <rgarciasuarez@gmail.com>.
+Copyright (c) 2004, 2005, 2007, 2008, 2011 Rafael Garcia-Suarez <rgs@consttype.org>,
+rewritten by Leon Timmermans <leont@cpan.org>
 
 =head1 LICENSE
 

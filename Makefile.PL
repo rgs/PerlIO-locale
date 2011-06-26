@@ -9,7 +9,7 @@ BARF
 }
 
 WriteMakefile(
-    AUTHOR => 'Leon Timmermans <leont@cpan.org>, Rafael Garcia-Suarez <rgarciasuarez@gmail.com>',
+    AUTHOR => 'Leon Timmermans <leont@cpan.org>, Rafael Garcia-Suarez <rgs@consttype.org>',
     NAME => 'PerlIO::locale',
     PREREQ_PM => { 'PerlIO::encoding' => 0 },
     VERSION_FROM => 'locale.pm',
