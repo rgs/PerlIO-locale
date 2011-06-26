@@ -7,11 +7,6 @@ unless ($Config{useperlio} eq 'define' and $Config{usesfio} eq 'false') {
 You need perl 5.8.0 or later, configured to use perlio (and not to use sfio).
 BARF
 }
-unless ($Config{d_nl_langinfo} eq 'define') {
-    die <<BARF;
-This module doesn't support yet platforms that don't have nl_langinfo(3).
-BARF
-}
 
 WriteMakefile(
     AUTHOR => 'Leon Timmermans <leont@cpan.org>, Rafael Garcia-Suarez <rgarciasuarez@gmail.com>',

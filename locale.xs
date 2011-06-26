@@ -1,14 +1,22 @@
+#ifndef WIN32
 #include <langinfo.h>
+#endif
 #include "EXTERN.h"
 #include "perl.h"
 #include "XSUB.h"
 #include "perliol.h"
 
+#ifdef WIN32
+#define get_locale_encoding() newSVpvf("cp%lu", GetACP())
+#else
+#define get_locale_encoding() newSVpv(nl_langinfo(CODESET), 0)
+#endif
+
 IV
 PerlIOLocale_pushed(pTHX_ PerlIO *f, const char *mode, SV *arg, PerlIO_funcs *tab)
 {
     PerlIO_funcs* encoding = PerlIO_find_layer(aTHX_ "encoding", 8, 1);
-    SV* locale_encoding = sv_2mortal(newSVpv(nl_langinfo(CODESET), 0));
+    SV* locale_encoding = sv_2mortal(get_locale_encoding());
     return PerlIO_push(aTHX_ f, encoding, mode, locale_encoding) == f ? 0 : -1;
 }
 
