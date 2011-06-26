@@ -2,12 +2,11 @@ package PerlIO::locale;
 
 use 5.008;
 use strict;
-use DynaLoader;
+use XSLoader;
 use PerlIO::encoding;
-our @ISA = qw(DynaLoader);
-our $VERSION = '0.06';
+our $VERSION = '0.07';
 
-bootstrap PerlIO::locale;
+XSLoader::load('PerlIO::locale', $VERSION);
 
 1;
 
@@ -16,6 +15,10 @@ __END__
 =head1 NAME
 
 PerlIO::locale - PerlIO layer to use the encoding of the current locale
+
+=head1 VERSION
+
+0.07
 
 =head1 SYNOPSIS
 
@@ -43,6 +46,12 @@ under the same terms as Perl itself.
 
 =head1 SEE ALSO
 
-L<open>.
+=over 4
+
+=item * L<open>.
+
+=item * L<PerlIO::encoding>
+
+=back
 
 =cut
