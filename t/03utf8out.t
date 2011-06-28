@@ -8,7 +8,7 @@ use PerlIO::locale;
 use POSIX qw(locale_h);
 
 SKIP: {
-    setlocale(LC_CTYPE, "en_US.UTF-8") or skip("no such locale", 1);
+    setlocale(LC_CTYPE, "en_US.UTF-8") or skip("no such locale", 2);
 
     open(O, ">:locale", "foo") or die $!;
     print O "\x{430}";
