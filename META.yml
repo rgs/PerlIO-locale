@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               PerlIO-locale
-version:            0.07
+version:            0.08
 abstract:           ~
 author:
     - Leon Timmermans <leont@cpan.org>, Rafael Garcia-Suarez <rgs@consttype.org>
@@ -16,7 +16,7 @@ no_index:
     directory:
         - t
         - inc
-generated_by:       ExtUtils::MakeMaker version 6.55_02
+generated_by:       ExtUtils::MakeMaker version 6.56
 meta-spec:
     url:      http://module-build.sourceforge.net/META-spec-v1.4.html
     version:  1.4

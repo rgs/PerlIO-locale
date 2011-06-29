@@ -30,3 +30,12 @@ Leon Timmermans (2):
 Rafael Garcia-Suarez (1):
       Change my email address, and add Leon to AUTHOR section
 
+0.08:
+Leon Timmermans (2):
+      Fix skip count
+      Respect local locale if set
+
+Rafael Garcia-Suarez (2):
+      Release 0.07
+      Merge pull request #1 from Leont/master
+
