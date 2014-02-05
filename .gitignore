@@ -1,0 +1,10 @@
+MYMETA.*
+META.*
+Makefile
+Makefile.old
+*.bs
+*.o
+locale.c
+blib/
+pm_to_blib
+foo
