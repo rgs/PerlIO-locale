@@ -2,7 +2,9 @@ use 5.008;
 use ExtUtils::MakeMaker;
 use Config;
 
-unless ($Config{useperlio} eq 'define' and $Config{usesfio} eq 'false') {
+unless ($Config{useperlio} eq 'define' and (
+        $Config{usesfio} eq 'false' || !defined $Config{usesfio}
+)) {
     die <<BARF;
 You need perl 5.8.0 or later, configured to use perlio (and not to use sfio).
 BARF
