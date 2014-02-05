@@ -4,7 +4,7 @@ use 5.008;
 use strict;
 use XSLoader;
 use PerlIO::encoding;
-our $VERSION = '0.08';
+our $VERSION = '0.09';
 
 XSLoader::load('PerlIO::locale', $VERSION);
 
@@ -37,7 +37,7 @@ to the locale currently in effect, if perl can guess it.
 
 =head1 AUTHOR
 
-Copyright (c) 2004, 2005, 2007, 2008, 2011 Rafael Garcia-Suarez <rgs@consttype.org>,
+Copyright (c) 2004, 2005, 2007, 2008, 2011, 2014 Rafael Garcia-Suarez <rgs@consttype.org>,
 rewritten by Leon Timmermans <leont@cpan.org>
 
 =head1 LICENSE
