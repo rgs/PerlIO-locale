@@ -1,4 +1,3 @@
-ChangeLog
 MANIFEST
 MANIFEST.SKIP
 Makefile.PL
@@ -10,4 +9,3 @@ t/02utf8in.t
 t/03utf8out.t
 t/pod.t
 t/pod-coverage.t
-META.yml                                 Module meta-data (added by MakeMaker)
