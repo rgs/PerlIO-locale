@@ -4,7 +4,7 @@ use 5.008;
 use strict;
 use XSLoader;
 use PerlIO::encoding;
-our $VERSION = '0.09';
+our $VERSION = '0.10';
 
 XSLoader::load('PerlIO::locale', $VERSION);
 
@@ -53,9 +53,11 @@ A git repository for the sources is at L<https://github.com/rgs/PerlIO-locale>.
 
 =over 4
 
-=item * L<open>.
+=item * L<open>
 
 =item * L<PerlIO::encoding>
+
+=item * L<I18N::Langinfo>
 
 =back
 
