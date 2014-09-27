@@ -21,4 +21,14 @@ WriteMakefile(
     VERSION_FROM => 'locale.pm',
     LICENSE => 'perl',
     clean => { FILES => "foo" },
+    META_MERGE => {
+        'meta-spec' => { version => 2 },
+        resources => {
+            repository => {
+                type => 'git',
+                url  => 'https://github.com/rgs/PerlIO-locale.git',
+                web  => 'https://github.com/rgs/PerlIO-locale',
+            },
+        },
+    },
 );
