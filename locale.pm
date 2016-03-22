@@ -16,10 +16,6 @@ __END__
 
 PerlIO::locale - PerlIO layer to use the encoding of the current locale
 
-=head1 VERSION
-
-0.07
-
 =head1 SYNOPSIS
 
     use PerlIO::locale;
